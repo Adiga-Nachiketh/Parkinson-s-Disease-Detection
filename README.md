@@ -13,7 +13,7 @@ This repository contains a machine learning project for detecting Parkinson's Di
 ## Tools & Libraries Used
 
 - **Python**
-- **Google Colab** for implementation and running the models.
+- **Google Colab** for implementation and running the model.
 - **Machine Learning Libraries**:
   - `scikit-learn` for building and evaluating the model.
   - `pandas` and `numpy` for data manipulation and analysis.
@@ -22,19 +22,17 @@ This repository contains a machine learning project for detecting Parkinson's Di
 ## Project Details
 
 ### 1. **Data Preprocessing**:
-   - Describe any data cleaning steps, like handling missing values or scaling features.
-   - Mention how the data was split into training and testing sets.
+   - The data was cleaned and scaled to ensure that all features are within a similar range.
+   - The data was split into training and testing sets for model evaluation.
 
 ### 2. **Model Development**:
-   - Explain the machine learning models you used (e.g., logistic regression, SVM, decision trees).
-   - If applicable, include deep learning approaches and their architectures.
-   - Provide any hyperparameter tuning or cross-validation strategies you employed.
+   - **Support Vector Machine (SVM)** was used as the primary model to predict Parkinson’s Disease.
+   - Hyperparameter tuning was performed to optimize the SVM model for better accuracy.
 
 ### 3. **Model Evaluation**:
-   - Describe the performance metrics used (e.g., accuracy, precision, recall, F1-score).
-   - Show the confusion matrix or classification report, if applicable.
-   - Discuss the model's final performance and any insights.
+   - The model was evaluated using metrics such as accuracy, precision, recall, and F1-score.
+   - A confusion matrix and classification report were generated to provide insights into the model's performance.
 
 ### 4. **Conclusion**:
-   - Summarize the results and explain how the model can be used in a real-world scenario.
-   - Mention possible future improvements or areas for further exploration.
+   - The SVM model achieved satisfactory performance in detecting Parkinson's Disease, with potential for further improvements.
+   - Future work could explore additional models or feature engineering for even better predictions.
