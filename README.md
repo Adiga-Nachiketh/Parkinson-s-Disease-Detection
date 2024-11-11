@@ -18,7 +18,6 @@ This repository contains a machine learning project for detecting Parkinson's Di
   - `scikit-learn` for building and evaluating the model.
   - `pandas` and `numpy` for data manipulation and analysis.
   - `matplotlib` and `seaborn` for visualization.
-- **Other Libraries**: `keras` (if you used deep learning models), `xgboost`, or any other relevant libraries.
 
 ## Project Details
 
@@ -39,9 +38,3 @@ This repository contains a machine learning project for detecting Parkinson's Di
 ### 4. **Conclusion**:
    - Summarize the results and explain how the model can be used in a real-world scenario.
    - Mention possible future improvements or areas for further exploration.
-
-## Usage
-
-To use the trained model for predictions:
-```python
-prediction = model.predict(new_data)
